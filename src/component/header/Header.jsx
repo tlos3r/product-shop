@@ -114,19 +114,6 @@ function Header() {
 
                             <li>
                                 <NavLink
-                                    to="/contact"
-                                    className={({ isActive }) =>
-                                        isActive
-                                            ? "flex text-md border-b-4 delay-150 border-solid border-zinc-500 hover:-translate-y-0 hover:scale-110"
-                                            : "flex text-md transition delay-150  hover:-translate-y-0 hover:scale-110"
-                                    }
-                                >
-                                    Contact
-                                </NavLink>
-                            </li>
-
-                            <li>
-                                <NavLink
                                     to="/order-history"
                                     className={({ isActive }) =>
                                         isActive

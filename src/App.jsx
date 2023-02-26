@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.scss";
 import { Header, Footer } from "./component";
 import { ToastContainer } from "react-toastify";
-import { Home, Contact, Login, Register, Reset, Admin, Cart } from "./pages";
+import { Home, Login, Register, Reset, Admin, Cart } from "./pages";
 import AdminOnlyRoute from "./component/AdminOnlyRoute/AdminOnlyRoute";
 import ProductDetails from "./component/Product/productDetails/ProductDetails";
 const App = () => {
@@ -13,7 +13,6 @@ const App = () => {
                 <Header />
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/contact" element={<Contact />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
                     <Route path="/reset" element={<Reset />} />
